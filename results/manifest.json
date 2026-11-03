@@ -1,0 +1,111 @@
+{
+  "started_utc": "2026-11-03T15:39:38.629423+00:00",
+  "source_sha256": "6fa97f5508dc55cad7a8ddfa3a07f36fac070fd95e48a7443ddc59050b462849",
+  "command": [
+    "experiment\\benchmark.py",
+    "--output",
+    "experiment\\results"
+  ],
+  "order": [
+    {
+      "rate": 60,
+      "repeat": 3,
+      "mode": "async"
+    },
+    {
+      "rate": 60,
+      "repeat": 3,
+      "mode": "sync"
+    },
+    {
+      "rate": 20,
+      "repeat": 4,
+      "mode": "sync"
+    },
+    {
+      "rate": 20,
+      "repeat": 4,
+      "mode": "async"
+    },
+    {
+      "rate": 20,
+      "repeat": 1,
+      "mode": "async"
+    },
+    {
+      "rate": 20,
+      "repeat": 1,
+      "mode": "sync"
+    },
+    {
+      "rate": 60,
+      "repeat": 1,
+      "mode": "async"
+    },
+    {
+      "rate": 60,
+      "repeat": 1,
+      "mode": "sync"
+    },
+    {
+      "rate": 20,
+      "repeat": 5,
+      "mode": "async"
+    },
+    {
+      "rate": 20,
+      "repeat": 5,
+      "mode": "sync"
+    },
+    {
+      "rate": 60,
+      "repeat": 2,
+      "mode": "sync"
+    },
+    {
+      "rate": 60,
+      "repeat": 2,
+      "mode": "async"
+    },
+    {
+      "rate": 60,
+      "repeat": 5,
+      "mode": "async"
+    },
+    {
+      "rate": 60,
+      "repeat": 5,
+      "mode": "sync"
+    },
+    {
+      "rate": 60,
+      "repeat": 4,
+      "mode": "sync"
+    },
+    {
+      "rate": 60,
+      "repeat": 4,
+      "mode": "async"
+    },
+    {
+      "rate": 20,
+      "repeat": 3,
+      "mode": "async"
+    },
+    {
+      "rate": 20,
+      "repeat": 3,
+      "mode": "sync"
+    },
+    {
+      "rate": 20,
+      "repeat": 2,
+      "mode": "sync"
+    },
+    {
+      "rate": 20,
+      "repeat": 2,
+      "mode": "async"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+# Benchmark uses only the CPython 3.12 standard library.
+# Figure creation and separate PDF validation:
+reportlab==4.4.9
+pypdf==6.10.0

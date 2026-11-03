@@ -1,0 +1,21 @@
+{
+  "runs": 20,
+  "measured_requests": 9600,
+  "semantic_probe_count": 100,
+  "warmup_requests": 640,
+  "complete_trace": true,
+  "paired_workload_identity": true,
+  "business_values_correct": true,
+  "concurrency_and_queue_limits": true,
+  "unexpected_status_count": 0,
+  "status_counts": {
+    "200": 7006,
+    "429": 710,
+    "503": 945,
+    "504": 939
+  },
+  "maximum_generator_lag_ms": 32.18480001669377,
+  "saved_benchmark_hash_matches": true,
+  "dependency_total_below_nominal_lower_bound_count": 771,
+  "clock_mode": "default"
+}

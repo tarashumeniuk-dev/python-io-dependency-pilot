@@ -1,0 +1,412 @@
+{
+  "scope": "Publication copy prepared without rerunning the benchmark",
+  "series": {
+    "results": "diagnostic default-clock series; exclude from main conclusions",
+    "results_controlled_clock": "controlled-clock series used in the chapter"
+  },
+  "unchanged_from_original": [
+    "analyze.py",
+    "benchmark.py",
+    "config.json",
+    "PROTOCOL.txt",
+    "requirements-analysis.txt",
+    "results/01_60rps_rep3_async.csv",
+    "results/02_60rps_rep3_sync.csv",
+    "results/03_20rps_rep4_sync.csv",
+    "results/04_20rps_rep4_async.csv",
+    "results/05_20rps_rep1_async.csv",
+    "results/06_20rps_rep1_sync.csv",
+    "results/07_60rps_rep1_async.csv",
+    "results/08_60rps_rep1_sync.csv",
+    "results/09_20rps_rep5_async.csv",
+    "results/10_20rps_rep5_sync.csv",
+    "results/11_60rps_rep2_sync.csv",
+    "results/12_60rps_rep2_async.csv",
+    "results/13_60rps_rep5_async.csv",
+    "results/14_60rps_rep5_sync.csv",
+    "results/15_60rps_rep4_sync.csv",
+    "results/16_60rps_rep4_async.csv",
+    "results/17_20rps_rep3_async.csv",
+    "results/18_20rps_rep3_sync.csv",
+    "results/19_20rps_rep2_sync.csv",
+    "results/20_20rps_rep2_async.csv",
+    "results/aggregate.csv",
+    "results/analysis_environment.json",
+    "results/architecture.svg",
+    "results/benchmark_source.py",
+    "results/COMPLETE.json",
+    "results/config.json",
+    "results/diagnostics.csv",
+    "results/latency.svg",
+    "results/manifest.json",
+    "results/paired_differences.csv",
+    "results/report.html",
+    "results/summary_by_run_phase.csv",
+    "results/timeline.svg",
+    "results/timer_diagnostics.csv",
+    "results/timing_environment.json",
+    "results/validation.json",
+    "results_controlled_clock/01_60rps_rep3_async.csv",
+    "results_controlled_clock/02_60rps_rep3_sync.csv",
+    "results_controlled_clock/03_20rps_rep4_sync.csv",
+    "results_controlled_clock/04_20rps_rep4_async.csv",
+    "results_controlled_clock/05_20rps_rep1_async.csv",
+    "results_controlled_clock/06_20rps_rep1_sync.csv",
+    "results_controlled_clock/07_60rps_rep1_async.csv",
+    "results_controlled_clock/08_60rps_rep1_sync.csv",
+    "results_controlled_clock/09_20rps_rep5_async.csv",
+    "results_controlled_clock/10_20rps_rep5_sync.csv",
+    "results_controlled_clock/11_60rps_rep2_sync.csv",
+    "results_controlled_clock/12_60rps_rep2_async.csv",
+    "results_controlled_clock/13_60rps_rep5_async.csv",
+    "results_controlled_clock/14_60rps_rep5_sync.csv",
+    "results_controlled_clock/15_60rps_rep4_sync.csv",
+    "results_controlled_clock/16_60rps_rep4_async.csv",
+    "results_controlled_clock/17_20rps_rep3_async.csv",
+    "results_controlled_clock/18_20rps_rep3_sync.csv",
+    "results_controlled_clock/19_20rps_rep2_sync.csv",
+    "results_controlled_clock/20_20rps_rep2_async.csv",
+    "results_controlled_clock/aggregate.csv",
+    "results_controlled_clock/analysis_environment.json",
+    "results_controlled_clock/architecture.svg",
+    "results_controlled_clock/benchmark_source.py",
+    "results_controlled_clock/COMPLETE.json",
+    "results_controlled_clock/config.json",
+    "results_controlled_clock/diagnostics.csv",
+    "results_controlled_clock/latency.svg",
+    "results_controlled_clock/manifest.json",
+    "results_controlled_clock/paired_differences.csv",
+    "results_controlled_clock/report.html",
+    "results_controlled_clock/summary_by_run_phase.csv",
+    "results_controlled_clock/timeline.svg",
+    "results_controlled_clock/timer_diagnostics.csv",
+    "results_controlled_clock/timing_environment.json",
+    "results_controlled_clock/validation.json",
+    "RESULTS_SUMMARY_UK.txt",
+    "timing_environment.json"
+  ],
+  "publication_changes": [
+    {
+      "path": "results/01_60rps_rep3_async.json",
+      "change": "redacted local executable path",
+      "json_pointers": [
+        "/hardware_at_end/executable"
+      ]
+    },
+    {
+      "path": "results/02_60rps_rep3_sync.json",
+      "change": "redacted local executable path",
+      "json_pointers": [
+        "/hardware_at_end/executable"
+      ]
+    },
+    {
+      "path": "results/03_20rps_rep4_sync.json",
+      "change": "redacted local executable path",
+      "json_pointers": [
+        "/hardware_at_end/executable"
+      ]
+    },
+    {
+      "path": "results/04_20rps_rep4_async.json",
+      "change": "redacted local executable path",
+      "json_pointers": [
+        "/hardware_at_end/executable"
+      ]
+    },
+    {
+      "path": "results/05_20rps_rep1_async.json",
+      "change": "redacted local executable path",
+      "json_pointers": [
+        "/hardware_at_end/executable"
+      ]
+    },
+    {
+      "path": "results/06_20rps_rep1_sync.json",
+      "change": "redacted local executable path",
+      "json_pointers": [
+        "/hardware_at_end/executable"
+      ]
+    },
+    {
+      "path": "results/07_60rps_rep1_async.json",
+      "change": "redacted local executable path",
+      "json_pointers": [
+        "/hardware_at_end/executable"
+      ]
+    },
+    {
+      "path": "results/08_60rps_rep1_sync.json",
+      "change": "redacted local executable path",
+      "json_pointers": [
+        "/hardware_at_end/executable"
+      ]
+    },
+    {
+      "path": "results/09_20rps_rep5_async.json",
+      "change": "redacted local executable path",
+      "json_pointers": [
+        "/hardware_at_end/executable"
+      ]
+    },
+    {
+      "path": "results/10_20rps_rep5_sync.json",
+      "change": "redacted local executable path",
+      "json_pointers": [
+        "/hardware_at_end/executable"
+      ]
+    },
+    {
+      "path": "results/11_60rps_rep2_sync.json",
+      "change": "redacted local executable path",
+      "json_pointers": [
+        "/hardware_at_end/executable"
+      ]
+    },
+    {
+      "path": "results/12_60rps_rep2_async.json",
+      "change": "redacted local executable path",
+      "json_pointers": [
+        "/hardware_at_end/executable"
+      ]
+    },
+    {
+      "path": "results/13_60rps_rep5_async.json",
+      "change": "redacted local executable path",
+      "json_pointers": [
+        "/hardware_at_end/executable"
+      ]
+    },
+    {
+      "path": "results/14_60rps_rep5_sync.json",
+      "change": "redacted local executable path",
+      "json_pointers": [
+        "/hardware_at_end/executable"
+      ]
+    },
+    {
+      "path": "results/15_60rps_rep4_sync.json",
+      "change": "redacted local executable path",
+      "json_pointers": [
+        "/hardware_at_end/executable"
+      ]
+    },
+    {
+      "path": "results/16_60rps_rep4_async.json",
+      "change": "redacted local executable path",
+      "json_pointers": [
+        "/hardware_at_end/executable"
+      ]
+    },
+    {
+      "path": "results/17_20rps_rep3_async.json",
+      "change": "redacted local executable path",
+      "json_pointers": [
+        "/hardware_at_end/executable"
+      ]
+    },
+    {
+      "path": "results/18_20rps_rep3_sync.json",
+      "change": "redacted local executable path",
+      "json_pointers": [
+        "/hardware_at_end/executable"
+      ]
+    },
+    {
+      "path": "results/19_20rps_rep2_sync.json",
+      "change": "redacted local executable path",
+      "json_pointers": [
+        "/hardware_at_end/executable"
+      ]
+    },
+    {
+      "path": "results/20_20rps_rep2_async.json",
+      "change": "redacted local executable path",
+      "json_pointers": [
+        "/hardware_at_end/executable"
+      ]
+    },
+    {
+      "path": "results/architecture.pdf",
+      "change": "removed PDF author/date/timezone metadata; page streams unchanged"
+    },
+    {
+      "path": "results/environment.json",
+      "change": "redacted local executable path",
+      "json_pointers": [
+        "/executable"
+      ]
+    },
+    {
+      "path": "results/latency.pdf",
+      "change": "removed PDF author/date/timezone metadata; page streams unchanged"
+    },
+    {
+      "path": "results/timeline.pdf",
+      "change": "removed PDF author/date/timezone metadata; page streams unchanged"
+    },
+    {
+      "path": "results_controlled_clock/01_60rps_rep3_async.json",
+      "change": "redacted local executable path",
+      "json_pointers": [
+        "/hardware_at_end/executable"
+      ]
+    },
+    {
+      "path": "results_controlled_clock/02_60rps_rep3_sync.json",
+      "change": "redacted local executable path",
+      "json_pointers": [
+        "/hardware_at_end/executable"
+      ]
+    },
+    {
+      "path": "results_controlled_clock/03_20rps_rep4_sync.json",
+      "change": "redacted local executable path",
+      "json_pointers": [
+        "/hardware_at_end/executable"
+      ]
+    },
+    {
+      "path": "results_controlled_clock/04_20rps_rep4_async.json",
+      "change": "redacted local executable path",
+      "json_pointers": [
+        "/hardware_at_end/executable"
+      ]
+    },
+    {
+      "path": "results_controlled_clock/05_20rps_rep1_async.json",
+      "change": "redacted local executable path",
+      "json_pointers": [
+        "/hardware_at_end/executable"
+      ]
+    },
+    {
+      "path": "results_controlled_clock/06_20rps_rep1_sync.json",
+      "change": "redacted local executable path",
+      "json_pointers": [
+        "/hardware_at_end/executable"
+      ]
+    },
+    {
+      "path": "results_controlled_clock/07_60rps_rep1_async.json",
+      "change": "redacted local executable path",
+      "json_pointers": [
+        "/hardware_at_end/executable"
+      ]
+    },
+    {
+      "path": "results_controlled_clock/08_60rps_rep1_sync.json",
+      "change": "redacted local executable path",
+      "json_pointers": [
+        "/hardware_at_end/executable"
+      ]
+    },
+    {
+      "path": "results_controlled_clock/09_20rps_rep5_async.json",
+      "change": "redacted local executable path",
+      "json_pointers": [
+        "/hardware_at_end/executable"
+      ]
+    },
+    {
+      "path": "results_controlled_clock/10_20rps_rep5_sync.json",
+      "change": "redacted local executable path",
+      "json_pointers": [
+        "/hardware_at_end/executable"
+      ]
+    },
+    {
+      "path": "results_controlled_clock/11_60rps_rep2_sync.json",
+      "change": "redacted local executable path",
+      "json_pointers": [
+        "/hardware_at_end/executable"
+      ]
+    },
+    {
+      "path": "results_controlled_clock/12_60rps_rep2_async.json",
+      "change": "redacted local executable path",
+      "json_pointers": [
+        "/hardware_at_end/executable"
+      ]
+    },
+    {
+      "path": "results_controlled_clock/13_60rps_rep5_async.json",
+      "change": "redacted local executable path",
+      "json_pointers": [
+        "/hardware_at_end/executable"
+      ]
+    },
+    {
+      "path": "results_controlled_clock/14_60rps_rep5_sync.json",
+      "change": "redacted local executable path",
+      "json_pointers": [
+        "/hardware_at_end/executable"
+      ]
+    },
+    {
+      "path": "results_controlled_clock/15_60rps_rep4_sync.json",
+      "change": "redacted local executable path",
+      "json_pointers": [
+        "/hardware_at_end/executable"
+      ]
+    },
+    {
+      "path": "results_controlled_clock/16_60rps_rep4_async.json",
+      "change": "redacted local executable path",
+      "json_pointers": [
+        "/hardware_at_end/executable"
+      ]
+    },
+    {
+      "path": "results_controlled_clock/17_20rps_rep3_async.json",
+      "change": "redacted local executable path",
+      "json_pointers": [
+        "/hardware_at_end/executable"
+      ]
+    },
+    {
+      "path": "results_controlled_clock/18_20rps_rep3_sync.json",
+      "change": "redacted local executable path",
+      "json_pointers": [
+        "/hardware_at_end/executable"
+      ]
+    },
+    {
+      "path": "results_controlled_clock/19_20rps_rep2_sync.json",
+      "change": "redacted local executable path",
+      "json_pointers": [
+        "/hardware_at_end/executable"
+      ]
+    },
+    {
+      "path": "results_controlled_clock/20_20rps_rep2_async.json",
+      "change": "redacted local executable path",
+      "json_pointers": [
+        "/hardware_at_end/executable"
+      ]
+    },
+    {
+      "path": "results_controlled_clock/architecture.pdf",
+      "change": "removed PDF author/date/timezone metadata; page streams unchanged"
+    },
+    {
+      "path": "results_controlled_clock/environment.json",
+      "change": "redacted local executable path",
+      "json_pointers": [
+        "/executable"
+      ]
+    },
+    {
+      "path": "results_controlled_clock/latency.pdf",
+      "change": "removed PDF author/date/timezone metadata; page streams unchanged"
+    },
+    {
+      "path": "results_controlled_clock/timeline.pdf",
+      "change": "removed PDF author/date/timezone metadata; page streams unchanged"
+    }
+  ],
+  "excluded": "Local QA, monograph files, Library metadata, caches, 40 empty stderr logs and superseded packaging/checksum files",
+  "raw_csv_files_unchanged": 40,
+  "all_csv_files_unchanged": 50,
+  "benchmark_and_analysis_sources_unchanged": true
+}

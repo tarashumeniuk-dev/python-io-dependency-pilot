@@ -1,0 +1,25 @@
+{
+  "rates": [
+    20,
+    60
+  ],
+  "repeats": 5,
+  "phase_seconds": 3,
+  "phases": [
+    "normal",
+    "slow",
+    "fault",
+    "recovered"
+  ],
+  "concurrency": 8,
+  "queue_capacity": 64,
+  "generator_cap": 128,
+  "dependency_timeout_seconds": 0.3,
+  "client_timeout_seconds": 5,
+  "normal_delay_seconds": 0.02,
+  "slow_delay_seconds": 0.2,
+  "hang_delay_seconds": 0.6,
+  "warmup_requests": 32,
+  "seed": 20261103,
+  "clock_mode": "perf_counter"
+}

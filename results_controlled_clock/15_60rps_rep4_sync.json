@@ -1,0 +1,105 @@
+{
+  "tag": "15_60rps_rep4_sync",
+  "utc": "2026-11-03T15:49:19.636155+00:00",
+  "rate": 60,
+  "repeat": 4,
+  "mode": "sync",
+  "duration_s": 12.044643800065387,
+  "service_cpu_s": 1.53125,
+  "dependency_cpu_s": 0.625,
+  "generator_cpu_s": 1.71875,
+  "service_stats": {
+    "peak_active": 8,
+    "peak_pending": 72,
+    "active": 0,
+    "pending": 0,
+    "cpu_seconds": 1.6875
+  },
+  "dependency_stats": {
+    "peak_active": 16,
+    "peak_pending": 0,
+    "active": 0,
+    "pending": 0,
+    "cpu_seconds": 0.734375
+  },
+  "peak_generator": 74,
+  "semantic_probes": [
+    {
+      "request": {
+        "id": 4,
+        "phase": "normal"
+      },
+      "response": {
+        "id": 4,
+        "status": 200,
+        "value": 9,
+        "queue_ms": 0.005300040356814861,
+        "dependency_ms": 44.31349999504164
+      }
+    },
+    {
+      "request": {
+        "id": 7,
+        "phase": "slow"
+      },
+      "response": {
+        "id": 7,
+        "status": 200,
+        "value": 15,
+        "queue_ms": 0.005999987479299307,
+        "dependency_ms": 216.80280001601204
+      }
+    },
+    {
+      "request": {
+        "id": 8,
+        "phase": "fault"
+      },
+      "response": {
+        "id": 8,
+        "status": 503,
+        "value": null,
+        "queue_ms": 0.008800008799880743,
+        "dependency_ms": 57.3928999947384
+      }
+    },
+    {
+      "request": {
+        "id": 9,
+        "phase": "fault"
+      },
+      "response": {
+        "id": 9,
+        "status": 504,
+        "value": null,
+        "queue_ms": 0.0036999699659645557,
+        "dependency_ms": 310.34220004221424
+      }
+    },
+    {
+      "request": {
+        "id": 10,
+        "phase": "recovered"
+      },
+      "response": {
+        "id": 10,
+        "status": 200,
+        "value": 21,
+        "queue_ms": 0.005699985194951296,
+        "dependency_ms": 42.80310001922771
+      }
+    }
+  ],
+  "requests": 720,
+  "hardware_at_end": {
+    "platform": "Windows-11-10.0.26300-SP0",
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "[REDACTED: local Python executable path]",
+    "logical_cpus": 12,
+    "processor": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+    "event_loop_policy": "WindowsProactorEventLoopPolicy",
+    "cpu_model": "12th Gen Intel(R) Core(TM) i5-12450H",
+    "memory_total_bytes": 16890322944,
+    "memory_available_bytes": 4093353984
+  }
+}

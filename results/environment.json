@@ -1,0 +1,11 @@
+{
+  "platform": "Windows-11-10.0.26300-SP0",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "[REDACTED: local Python executable path]",
+  "logical_cpus": 12,
+  "processor": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+  "event_loop_policy": "WindowsProactorEventLoopPolicy",
+  "cpu_model": "12th Gen Intel(R) Core(TM) i5-12450H",
+  "memory_total_bytes": 16890322944,
+  "memory_available_bytes": 4691247104
+}

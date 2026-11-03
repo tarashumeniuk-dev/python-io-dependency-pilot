@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1000" height="370" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1000 370" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1000" height="370"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-370)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="30" y="337" style="font-family: Helvetica; font-size: 20px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,674) scale(1,-1)">Local TCP experiment: three processes on one Windows computer</text>
+			<text x="30" y="305" style="font-family: Helvetica; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,610) scale(1,-1)">Per run: service and dependency restarted; generator process and event loop reused within the series.</text>
+			<rect x="25" y="145" width="245" height="130" rx="8" ry="8" style="stroke: rgb(12%,34%,56%); stroke-linecap: butt; stroke-width: 1; fill: rgb(94%,96%,98%); fill-rule: evenodd;"/>
+			<rect x="345" y="145" width="310" height="130" rx="8" ry="8" style="stroke: rgb(12%,34%,56%); stroke-linecap: butt; stroke-width: 1; fill: rgb(94%,96%,98%); fill-rule: evenodd;"/>
+			<rect x="730" y="145" width="245" height="130" rx="8" ry="8" style="stroke: rgb(12%,34%,56%); stroke-linecap: butt; stroke-width: 1; fill: rgb(94%,96%,98%); fill-rule: evenodd;"/>
+			<text x="45" y="250" style="font-family: Helvetica; font-size: 14px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,500) scale(1,-1)">Generator</text>
+			<text x="45" y="225" style="font-family: Helvetica; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,450) scale(1,-1)">20 or 60 requests/s; open loop</text>
+			<text x="45" y="200" style="font-family: Helvetica; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,400) scale(1,-1)">Same trace; maximum 128 in flight</text>
+			<text x="45" y="175" style="font-family: Helvetica; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,350) scale(1,-1)">Measure planned and actual send</text>
+			<text x="365" y="250" style="font-family: Helvetica; font-size: 14px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,500) scale(1,-1)">Service: common asyncio ingress</text>
+			<text x="365" y="225" style="font-family: Helvetica; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,450) scale(1,-1)">8 active calls + 64 queue slots</text>
+			<text x="365" y="200" style="font-family: Helvetica; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,400) scale(1,-1)">A: blocking sockets, 8 threads</text>
+			<text x="365" y="175" style="font-family: Helvetica; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,350) scale(1,-1)">B: asyncio streams, semaphore 8</text>
+			<text x="750" y="250" style="font-family: Helvetica; font-size: 14px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,500) scale(1,-1)">Dependency simulator</text>
+			<text x="750" y="225" style="font-family: Helvetica; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,450) scale(1,-1)">20 ms / 200 ms / injected faults</text>
+			<text x="750" y="200" style="font-family: Helvetica; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,400) scale(1,-1)">503 or 600 ms response delay</text>
+			<text x="750" y="175" style="font-family: Helvetica; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,350) scale(1,-1)">Recovered cohort: 20 ms</text>
+			<path d="M 273,210 L 340,210 Z" style="stroke: rgb(12%,34%,56%); stroke-linecap: butt; stroke-width: 2;"/>
+			<path d="M 333,217 L 340,210 Z" style="stroke: rgb(12%,34%,56%); stroke-linecap: butt; stroke-width: 2;"/>
+			<path d="M 333,203 L 340,210 Z" style="stroke: rgb(12%,34%,56%); stroke-linecap: butt; stroke-width: 2;"/>
+			<text x="297.5" y="229" style="font-family: Helvetica; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,458) scale(1,-1)">TCP</text>
+			<path d="M 658,210 L 725,210 Z" style="stroke: rgb(12%,34%,56%); stroke-linecap: butt; stroke-width: 2;"/>
+			<path d="M 718,217 L 725,210 Z" style="stroke: rgb(12%,34%,56%); stroke-linecap: butt; stroke-width: 2;"/>
+			<path d="M 718,203 L 725,210 Z" style="stroke: rgb(12%,34%,56%); stroke-linecap: butt; stroke-width: 2;"/>
+			<text x="682.5" y="229" style="font-family: Helvetica; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,458) scale(1,-1)">TCP</text>
+			<text x="30" y="105" style="font-family: Helvetica; font-size: 12px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,210) scale(1,-1)">New loopback connection per request; JSON/LF; no HTTP, TLS, retries, pooling, or circuit breaker.</text>
+			<text x="30" y="80" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,160) scale(1,-1)">300 ms deadline: sync starts inside blocking_rpc after thread dispatch; async starts on entry to the rpc timeout.</text>
+			<text x="30" y="60" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,120) scale(1,-1)">Semaphore wait excluded. dependency_ms includes sync dispatch and socket closing; it is not the sleep duration.</text>
+			<text x="30" y="40" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,80) scale(1,-1)">recovered is a new request cohort, not a global dependency recovery. asyncio is not Reactive Streams.</text>
+			<text x="30" y="20" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,40) scale(1,-1)">generator_cpu_s also includes final control RPCs, sorting, validation and CSV writing.</text>
+		</g>
+	</g>
+</svg>

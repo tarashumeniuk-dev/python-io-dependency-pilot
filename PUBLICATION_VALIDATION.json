@@ -1,0 +1,17 @@
+{
+  "scope": "Prepared publication snapshot; original evidence unchanged",
+  "secret_and_local_identity_pattern_scan": "No findings; manual review also completed; not a guarantee against every possible secret",
+  "raw_csv_files_unchanged": 40,
+  "all_csv_files_unchanged": 50,
+  "measured_requests_both_series": 19200,
+  "json_files_with_only_executable_path_redacted": 42,
+  "vector_svg_files": 6,
+  "vector_pdf_files": 6,
+  "pdf_page_streams_unchanged": true,
+  "pdf_personal_date_metadata_removed": true,
+  "all_original_experiment_files_unchanged": true,
+  "analysis_recomputed_in_separate_working_copies": "All 10 derived CSVs and both validation.json files byte-identical",
+  "original_benchmark_and_analysis_sources_unchanged": true,
+  "license_for_original_materials": "No license added",
+  "publication_target": "Public GitHub repository under the user-confirmed account; creation and remote verification tracked separately"
+}

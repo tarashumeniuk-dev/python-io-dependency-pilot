@@ -1,0 +1,4 @@
+# Direct versions recorded for analysis; transitive versions checked at preparation.
+-r requirements-analysis.txt
+Pillow==12.3.0
+charset-normalizer==3.5.2
